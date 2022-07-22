@@ -1,0 +1,100 @@
+div.new-post {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+    opacity: 1;
+    text-align: center;
+    width: 552px;
+    height: 116px;
+    animation: 0s ease 0s 1 normal none running none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(201, 191, 191);
+    border-image: initial;
+    border-radius: 15px;
+}
+
+div.new-post .share-box-top {
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+div.new-post .share-box-top button {
+    width: 520px;
+    height: 48px;
+    line-height: 35px;
+    font-size: 15px;
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 35px!important;
+    padding-left: 16px!important;
+    background-color: white;
+    color: rgb(92, 92, 92);
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.new-post .share-box-top button .entry {
+    font-size: 15px;
+    padding-left: 5px;
+    color: #958b7b;
+    font-weight: 500;
+}
+
+div.new-post .share-box-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.new-post .share-box-bottom button {
+    border: none;
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+}
+
+div.new-post .share-box-bottom .photo svg {
+    color: #70b5f9;
+}
+
+div.new-post .share-box-bottom .photo-entry {
+    font-size: 15px;
+    padding-left: 5px;
+    color: #958b7b;
+    font-weight: 500;
+}
+
+div.new-post .share-box-bottom .video svg {
+    color: #e7a33e;
+}
+
+div.new-post .share-box-bottom .video-entry {
+    font-size: 15px;
+    padding-left: 5px;
+    color: #958b7b;
+    font-weight: 500;
+}
+
+div.new-post .share-box-bottom .activity svg {
+    color: #a0b4b7;
+}
+
+div.new-post .share-box-bottom .activity-entry {
+    font-size: 15px;
+    padding-left: 5px;
+    color: #958b7b;
+    font-weight: 500;
+}
+
+div.new-post .share-box-bottom .text-add svg {
+    color: #7fc15e;
+}
+
+div.new-post .share-box-bottom .text-add-entry {
+    font-size: 15px;
+    padding-left: 5px;
+    color: #958b7b;
+    font-weight: 500;
+}

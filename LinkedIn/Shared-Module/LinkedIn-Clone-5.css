@@ -1,0 +1,73 @@
+div.shared-module {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+    border: 1px;
+    width: 552px;
+    height: 260px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(201, 191, 191);
+    border-image: initial;
+    border-radius: 15px;
+    padding: 12px;
+}
+
+div.shared-module .user-sharing-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.shared-module .user-sharing-top .shared-control-menu svg path {
+    color: grey;
+}
+
+div.shared-module .user-sharing-top .user-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.shared-module .user-sharing-top .user-contact .user-contact-right {
+    font-size: 12px;
+}
+
+div.shared-module .user-sharing-top .user-contact .user-contact-right .user-name {
+    font-weight: 700;
+}
+
+div.shared-module .user-sharing-top .user-contact .user-contact-right .follows-number, div.shared-module .user-sharing-top .user-contact .user-contact-right .sharing-time {
+    color: grey;
+}
+
+ 
+div.shared-module .user-sharing-top .user-contact .user-contact-right .icon {
+    color: rgb(82, 82, 82);
+}
+
+div.shared-module .feedback {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.shared-module .feedback button {
+    border: none;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: grey;
+}
+
+div.shared-module .feedback button span {
+    padding-right: 5px;
+}
+
+div.shared-module .user-sharing-bottom {
+    padding-top: 15px;
+        padding-bottom: 15px;
+    }

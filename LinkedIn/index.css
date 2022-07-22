@@ -1,0 +1,27 @@
+.new-post {grid-area: newpost;}
+.follows-module {grid-area: follows;}
+.profile {grid-area: profile;}
+.shared-modul {grid-area: shared;}
+
+
+body > .wrapper{
+    display: grid;
+    grid-template-areas:
+      'profile newpost follows'
+      'profile shared follows'
+      'profile shared follows';
+    grid-gap: 0;
+    background-color: #f3f2ef;
+    padding-top: 52px;
+}
+body > .wrapper > div {
+    background-color: white;
+}
+
+.profile{
+    margin-left: 70px;
+}
+
+.follows-module{
+    margin-right: 70px;
+}

@@ -1,0 +1,132 @@
+.profile * {
+    color: rgba(0,0,0,0.9);
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+}
+
+div.profile {
+    opacity: 1;
+    text-align: center;
+    animation: none;
+    width: 216px;
+    height: 328px;
+    border: 1px solid rgb(201, 191, 191);
+    border-radius: 15px;
+}
+
+div.profile .profile-card hr {
+    border: 1px solid rgb(201, 191, 191);
+}
+
+div.profile .profile-card .profile-card-module img {
+    border-radius: 15px 15px 0 0;
+}
+
+div.profile .profile-card .profile-photo {
+    margin-top: -40px;
+}
+
+div.profile .profile-card .profile-photo img {
+    border: 2px solid var(--white,#fff);
+    border-radius: 50%;
+    box-shadow: none;
+}
+
+div.profile .profile-card .module-widget {
+    flex-direction: column;
+    padding: 12px 5px 0 7px;
+}
+
+div.profile .profile-card .module-widget .widget-network {
+    margin-top: 4px!important;
+    font-weight: 400;
+    font-size: 12px;
+    color: grey;
+    display: flex;
+}
+
+div.profile .profile-card .module-widget .widget-network .network-number {
+    padding-left: 140px;
+    color: blue;
+    font-weight: bold;
+}
+
+div.profile .profile-card .module-widget .contact {
+    margin-top: 4px!important;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(56, 56, 56);
+    display: flex;
+}
+
+div.profile .profile-card a .profile-name {
+    font-weight: 500;
+    color: rgba(0,0,0,.9);
+    line-height: 1.5;
+}
+
+div.profile .profile-card a p {
+    margin-top: 4px!important;
+    font-weight: 400;
+    font-size: 12px;
+    color: grey;
+}
+
+div.profile .profile-card .premium-link {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 12px 37px 5px 0;
+}
+
+div.profile .profile-card .premium-link a {
+    text-decoration: none;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.profile .profile-card .premium-link a .top {
+    color: grey;
+    font-weight: 400;
+    width: 100%;
+    font-size: 11px;
+}
+
+div.profile .profile-card .premium-link a .top:hover {
+    text-decoration: underline;
+    color: blue;
+} 
+
+div.profile .profile-card .premium-link a img {
+    padding: 0px 5px 15px 15px;
+}
+
+div.profile .profile-card .premium-link a .bottom {
+    font-weight: 500;
+    font-size: 12px;
+    color:rgba(0,0,0,.9);
+}
+
+div.profile .profile-card .premium-link a .bottom:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+div.profile .profile-card .premium-link hr {
+    border: 1px solid rgb(201, 191, 191);
+}
+
+div.profile .profile-card .saved-items {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 50px 15px 15px;
+}
+
+div.profile .profile-card .saved-items svg {
+    padding-right: 8px;
+}
+
+div.profile .profile-card .saved-items .saved-items-text {
+    font-weight: 500;
+    font-size: 13px;
+    color:rgba(0,0,0,.9);
+}
